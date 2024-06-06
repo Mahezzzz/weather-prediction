@@ -8,6 +8,7 @@ st.set_page_config(
     page_title="Prediction Pages",
     page_icon="✨"
 )
+st.sidebar.write("Anda berada di Menu Prediksi")
 
 # Memuat model cuaca yang telah dilatih sebelumnya
 weather_model = joblib.load(open('weather_model.sav', 'rb'))
