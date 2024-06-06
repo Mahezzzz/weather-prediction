@@ -4,6 +4,8 @@ st.set_page_config(
     page_title="Information Pages",
     page_icon="✨"
 )
+st.sidebar.write("Anda berada di Menu Informasi")
+
 st.title("Tentang Prediksi Cuaca")
 # 1. Berawan (Cloudy)
 st.header("1. Berawan (Cloudy)")
