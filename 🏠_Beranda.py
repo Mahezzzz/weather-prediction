@@ -6,7 +6,7 @@ st.set_page_config(
 )
 st.title("Halo, Selamat Datang di Aplikasi Prediksi Cuaca!")
 st.header("Ini adalah halaman beranda, harap pilih menu untuk melanjutkan.")
-st.sidebar.write("Silahkan Pilih Menu")
+st.sidebar.write("Anda berada di Beranda")
 
 st.image("cuaca 4.png", use_column_width=True)
 # Add custom CSS to style the app
