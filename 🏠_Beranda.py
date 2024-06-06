@@ -6,9 +6,9 @@ st.set_page_config(
 )
 st.title("Halo, Selamat Datang di Aplikasi Prediksi Cuaca!")
 st.header("Ini adalah halaman beranda, harap pilih menu untuk melanjutkan.")
-st.sidebar.write("Anda berada di Beranda")
 
 st.image("cuaca 4.png", use_column_width=True)
+st.sidebar.write("Anda berada di Beranda")
 # Add custom CSS to style the app
 st.markdown("""
     <style>
@@ -29,7 +29,6 @@ st.markdown("""
     }
         [data-testid="stSidebar"] {
         background: linear-gradient(#fff394,#fff9e2);
-        color: #1a4b94;
         padding: 20px;               
     }
 .sidebar .sidebar-content {
